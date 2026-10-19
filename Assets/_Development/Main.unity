@@ -90487,7 +90487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &166060259
 RectTransform:
   m_ObjectHideFlags: 0
@@ -341624,7 +341624,7 @@ MonoBehaviour:
   m_Camera: {fileID: 1883086023}
   m_OriginBaseGameObject: {fileID: 628851188}
   m_CameraFloorOffsetObject: {fileID: 1369350888}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.1176
 --- !u!1001 &628898215
 PrefabInstance:
@@ -1152753,7 +1152753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bbb342a6cafc0f44b18d62cda4edf2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DisplayInformationIfHovered
-  m_informationPanel: {fileID: 520630535}
+  m_informationPanelCanvas: {fileID: 166060258}
 --- !u!114 &8429765700002937365
 MonoBehaviour:
   m_ObjectHideFlags: 0
