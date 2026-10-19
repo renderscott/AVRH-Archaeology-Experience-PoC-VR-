@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Mould_normal.png.meta
 guid: cf78adbea8dc596419801c23d1cfe8ff
+=======
+guid: 98022e8d79eeb244ab60755e042b7e29
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Mould_normal.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -7,7 +11,11 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Mould_normal.png.meta
     sRGBTexture: 0
+=======
+    sRGBTexture: 1
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Mould_normal.png.meta
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -56,7 +64,11 @@ TextureImporter:
   spriteTessellationMethod: 0
   spriteTessellationDetail: -1
   spriteGeometrySubdivision: -1
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Mould_normal.png.meta
   textureType: 1
+=======
+  textureType: 0
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Mould_normal.png.meta
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -108,6 +120,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Mould_normal.png.meta
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -121,6 +134,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Mould_normal.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites: []

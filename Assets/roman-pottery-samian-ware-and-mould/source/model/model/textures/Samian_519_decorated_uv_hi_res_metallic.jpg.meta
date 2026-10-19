@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Samian_519_decorated_uv_hi_res_metallic.jpg.meta
 guid: bf8c70ead2ab9d84394c3eeb9bd31d88
+=======
+guid: c1b2f2624e1164148bab88dcf715d99d
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Samian_519_decorated_uv_hi_res_metallic.jpg.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,6 +112,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Samian_519_decorated_uv_hi_res_metallic.jpg.meta
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -121,6 +126,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Samian_519_decorated_uv_hi_res_metallic.jpg.meta
   spriteSheet:
     serializedVersion: 2
     sprites: []

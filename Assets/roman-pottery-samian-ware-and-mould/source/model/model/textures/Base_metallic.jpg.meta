@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Base_metallic.jpg.meta
 guid: 4925f7c2a01753143ae219c64ff40c5c
+=======
+guid: 09fe87bd2ad52a84b9143d62dcbbbad1
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Base_metallic.jpg.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,6 +112,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Base_metallic.jpg.meta
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -121,6 +126,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Base_metallic.jpg.meta
   spriteSheet:
     serializedVersion: 2
     sprites: []

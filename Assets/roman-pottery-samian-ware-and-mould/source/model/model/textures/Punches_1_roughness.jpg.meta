@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Punches_1_roughness.jpg.meta
 guid: d0dbd29670ee03f49bbd1b19096dbacd
+=======
+guid: 821097140a8231a4e89a00dd819d069e
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Punches_1_roughness.jpg.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,6 +112,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/roman-pottery-samian-ware-and-mould/source/model/model/textures/Punches_1_roughness.jpg.meta
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -121,6 +126,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 9e1a632c72e73aa8b4377c4378f47d8ecee5250c:Assets/roman-pottery-samian-ware-and-mould/source/model/textures/Punches_1_roughness.jpg.meta
   spriteSheet:
     serializedVersion: 2
     sprites: []
