@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchPlusControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchPlusControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -1032,27 +1032,27 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: -7252511752315798003}
-  - {fileID: 8447547114794030094}
-  - {fileID: 4514606163118076228}
-  - {fileID: -3078886472954912785}
-  - {fileID: -2390712666579947390}
-  - {fileID: -1256326311764121558}
   - {fileID: -7965980797804057058}
-  - {fileID: 4474374775834412905}
-  - {fileID: -6284497069269345470}
-  - {fileID: 9039784089488500033}
-  - {fileID: -4342161843720976969}
-  - {fileID: -7917299309382413610}
-  - {fileID: -1087900255198731372}
-  - {fileID: 6069862026732563043}
+  - {fileID: 4514606163118076228}
+  - {fileID: -1256326311764121558}
   - {fileID: -5991098508860316344}
-  - {fileID: -396614930636302444}
-  - {fileID: 5001816139318003961}
-  - {fileID: -2054781104462363537}
-  - {fileID: -8105134219647681680}
   - {fileID: -2769019707407328869}
+  - {fileID: -2390712666579947390}
+  - {fileID: -6284497069269345470}
+  - {fileID: -8105134219647681680}
+  - {fileID: 9039784089488500033}
+  - {fileID: 4474374775834412905}
+  - {fileID: -2054781104462363537}
+  - {fileID: -1087900255198731372}
+  - {fileID: -7917299309382413610}
   - {fileID: 381004601020493568}
+  - {fileID: -396614930636302444}
+  - {fileID: 8447547114794030094}
+  - {fileID: -4342161843720976969}
+  - {fileID: 6069862026732563043}
+  - {fileID: -7252511752315798003}
+  - {fileID: -3078886472954912785}
+  - {fileID: 5001816139318003961}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
