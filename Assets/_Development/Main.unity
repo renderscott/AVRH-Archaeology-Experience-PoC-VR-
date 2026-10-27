@@ -778136,6 +778136,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7462879561657043759, guid: ad818c36731146e994540a1896ad8f24, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 2
       objectReference: {fileID: 0}
@@ -1152753,7 +1152757,7 @@ Transform:
   m_GameObject: {fileID: 6089873160891995994}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.379, y: 0, z: 0.024}
+  m_LocalPosition: {x: -0.499, y: 0, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1152854,10 +1152858,10 @@ GameObject:
   - component: {fileID: 7765361504821728549}
   - component: {fileID: 8130849022095169528}
   - component: {fileID: 8429765700002937362}
-  - component: {fileID: 8429765700002937363}
   - component: {fileID: 8429765700002937364}
   - component: {fileID: 8429765700002937366}
   - component: {fileID: 8429765700002937365}
+  - component: {fileID: 8429765700002937367}
   m_Layer: 0
   m_Name: Mould
   m_TagString: Untagged
@@ -1152954,10 +1152958,10 @@ GameObject:
   - component: {fileID: 2800169125678739443}
   - component: {fileID: 8280086744041389389}
   - component: {fileID: 8725946465832519929}
-  - component: {fileID: 8725946465832519930}
   - component: {fileID: 8725946465832519931}
   - component: {fileID: 8725946465832519933}
   - component: {fileID: 8725946465832519932}
+  - component: {fileID: 8725946465832519934}
   m_Layer: 0
   m_Name: Punches_1
   m_TagString: Untagged
@@ -1153070,10 +1153074,10 @@ GameObject:
   - component: {fileID: 6790057407267915964}
   - component: {fileID: 1031119039085958697}
   - component: {fileID: 901413085634098745}
-  - component: {fileID: 6790057407267915965}
   - component: {fileID: 6790057407267915966}
   - component: {fileID: 6790057407267915968}
   - component: {fileID: 6790057407267915967}
+  - component: {fileID: 6790057407267915969}
   m_Layer: 0
   m_Name: Samian 519 decorated uv hi res
   m_TagString: Untagged
@@ -1153383,35 +1153387,13 @@ Transform:
   m_GameObject: {fileID: 3307568682919441099}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.379, y: 0, z: 0.024}
+  m_LocalPosition: {x: -0.499, y: 0, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 980459954}
   m_Father: {fileID: 543450653669211325}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &6790057407267915965
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3307568682919441099}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2616546038268231179, guid: c8a6cd6ae9cc0af46867c26de007c89d, type: 3}
 --- !u!114 &6790057407267915966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1153439,7 +1153421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 6790057407267915965}
+  - {fileID: 6790057407267915969}
   m_InteractionLayers:
     m_Bits: 2
   m_DistanceCalculationMode: 1
@@ -1153607,6 +1153589,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &6790057407267915969
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3307568682919441099}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.25
+  m_Center: {x: -0.39750022, y: -0.16200349, z: -0.17018849}
 --- !u!4 &7765361504821728549
 Transform:
   m_ObjectHideFlags: 0
@@ -1153688,28 +1153691,6 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8429765700002937363
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 943566489338238414}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -468068606142469791, guid: c8a6cd6ae9cc0af46867c26de007c89d, type: 3}
 --- !u!114 &8429765700002937364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1153737,7 +1153718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 8429765700002937363}
+  - {fileID: 8429765700002937367}
   m_InteractionLayers:
     m_Bits: 2
   m_DistanceCalculationMode: 1
@@ -1153905,6 +1153886,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &8429765700002937367
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943566489338238414}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.25
+  m_Center: {x: 0.72295594, y: -0.18931049, z: -0.0013899897}
 --- !u!23 &8725946465832519929
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1153954,28 +1153956,6 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8725946465832519930
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2182927601159683747}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2870821801216805199, guid: c8a6cd6ae9cc0af46867c26de007c89d, type: 3}
 --- !u!114 &8725946465832519931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1154003,7 +1153983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
   m_InteractionManager: {fileID: 0}
   m_Colliders:
-  - {fileID: 8725946465832519930}
+  - {fileID: 8725946465832519934}
   m_InteractionLayers:
     m_Bits: 2
   m_DistanceCalculationMode: 1
@@ -1154171,6 +1154151,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &8725946465832519934
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2182927601159683747}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.23
+  m_Center: {x: 0.035578005, y: -0.36850795, z: 0.29282597}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
