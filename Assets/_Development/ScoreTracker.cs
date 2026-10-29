@@ -32,6 +32,6 @@ public class ScoreTracker : MonoBehaviour
 
     private void updateText()
     {
-        ui_text.text = ui_interacted.Count + " / " + ui_total;
+        ui_text.text = "Information found:\n" + ui_interacted.Count + " / " + ui_total;
     }
 }
