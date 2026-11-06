@@ -5,10 +5,10 @@ using TMPro;
 public class ScoreTracker : MonoBehaviour
 {
     public static ScoreTracker Instance;
-    [SerializeField] private TMP_Text ui_text;
+    [SerializeField] private TMP_Text _uiText;
 
-    private List<GameObject> ui_interacted = new List<GameObject>();
-    private int ui_total;
+    private List<GameObject> _uiInteracted = new List<GameObject>();
+    private int _uiTotal;
 
     private void Awake()
     {
@@ -18,20 +18,20 @@ public class ScoreTracker : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        ui_total = FindObjectsByType<DisplayInformationIfHovered>().Length;
+        _uiTotal = FindObjectsByType<DisplayInformationIfHovered>().Length;
         updateText();
     }
 
     public void triggerInteraction(GameObject obj)
     {
-        if(!ui_interacted.Contains(obj)) {
-            ui_interacted.Add(obj);
+        if(!_uiInteracted.Contains(obj)) {
+            _uiInteracted.Add(obj);
             updateText();
         }
     }
 
     private void updateText()
     {
-        ui_text.text = "Information found:\n" + ui_interacted.Count + " / " + ui_total;
+        _uiText.text = "Information found:\n" + _uiInteracted.Count + " / " + _uiTotal;
     }
 }

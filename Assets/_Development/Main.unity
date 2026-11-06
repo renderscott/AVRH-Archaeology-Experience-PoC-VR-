@@ -74339,7 +74339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 604e5ba13806b7947b74bf0880465771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreTracker
-  ui_text: {fileID: 82541148}
+  _uiText: {fileID: 82541148}
 --- !u!1001 &136552392
 PrefabInstance:
   m_ObjectHideFlags: 0
