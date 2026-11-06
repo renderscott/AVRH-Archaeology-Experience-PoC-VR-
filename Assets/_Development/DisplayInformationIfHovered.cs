@@ -9,7 +9,7 @@ public class DisplayInformationIfHovered : MonoBehaviour
     {
         if(!_informationPanelCanvas.activeSelf)
             _informationPanelCanvas.SetActive(true);
-        ScoreTracker.Instance.triggerInteraction(gameObject);
+        ScoreTracker.Instance.TriggerInteraction(gameObject);
     }
     
     public void OnLastHoverExit(HoverExitEventArgs args)

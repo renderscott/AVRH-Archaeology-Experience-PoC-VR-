@@ -19,18 +19,18 @@ public class ScoreTracker : MonoBehaviour
     void Start()
     {
         _uiTotal = FindObjectsByType<DisplayInformationIfHovered>().Length;
-        updateText();
+        UpdateText();
     }
 
-    public void triggerInteraction(GameObject obj)
+    public void TriggerInteraction(GameObject obj)
     {
         if(!_uiInteracted.Contains(obj)) {
             _uiInteracted.Add(obj);
-            updateText();
+            UpdateText();
         }
     }
 
-    private void updateText()
+    private void UpdateText()
     {
         _uiText.text = "Information found:\n" + _uiInteracted.Count + " / " + _uiTotal;
     }
