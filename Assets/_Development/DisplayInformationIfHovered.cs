@@ -3,18 +3,18 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class DisplayInformationIfHovered : MonoBehaviour
 {
-    [SerializeField] private GameObject m_informationPanelCanvas;
+    [SerializeField] private GameObject _informationPanelCanvas;
     
     public void OnFirstHoverEnter(HoverEnterEventArgs args)
     {
-        if(!m_informationPanelCanvas.activeSelf)
-            m_informationPanelCanvas.SetActive(true);
+        if(!_informationPanelCanvas.activeSelf)
+            _informationPanelCanvas.SetActive(true);
         ScoreTracker.Instance.triggerInteraction(gameObject);
     }
     
     public void OnLastHoverExit(HoverExitEventArgs args)
     {
-        if(m_informationPanelCanvas.activeSelf)
-            m_informationPanelCanvas.SetActive(false);
+        if(_informationPanelCanvas.activeSelf)
+            _informationPanelCanvas.SetActive(false);
     }
 }

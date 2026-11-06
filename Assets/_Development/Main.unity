@@ -791856,7 +791856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bbb342a6cafc0f44b18d62cda4edf2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DisplayInformationIfHovered
-  m_informationPanelCanvas: {fileID: 1614754714}
+  _informationPanelCanvas: {fileID: 1614754714}
 --- !u!135 &1458952702
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -920876,7 +920876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8135023674665499069, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8518324294302271954, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1154535,7 +1154535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bbb342a6cafc0f44b18d62cda4edf2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DisplayInformationIfHovered
-  m_informationPanelCanvas: {fileID: 980459953}
+  _informationPanelCanvas: {fileID: 980459953}
 --- !u!114 &6790057407267915967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1154832,7 +1154832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bbb342a6cafc0f44b18d62cda4edf2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DisplayInformationIfHovered
-  m_informationPanelCanvas: {fileID: 166060258}
+  _informationPanelCanvas: {fileID: 166060258}
 --- !u!114 &8429765700002937365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1155097,7 +1155097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bbb342a6cafc0f44b18d62cda4edf2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DisplayInformationIfHovered
-  m_informationPanelCanvas: {fileID: 956714293}
+  _informationPanelCanvas: {fileID: 956714293}
 --- !u!114 &8725946465832519932
 MonoBehaviour:
   m_ObjectHideFlags: 0
